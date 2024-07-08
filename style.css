@@ -1,0 +1,146 @@
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #234E52;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 200px;
+    background: black;
+    border: 1px solid #ccc;
+}
+.logo-seection{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a{
+    color:white;
+
+}
+
+/* footer section  */
+
+.footer-section{
+    background-color: #001C31;
+    padding: 10px;
+    height: 400px;
+}
+.f-logo>img{
+    width:100px;
+    border:2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    margin-left: 150px;
+    
+}
+.Footer{
+    display: flex;
+    gap:60px;
+    margin:auto;
+    align-items: center;
+
+}
+.f-right{
+    display: flex;
+    gap:30px
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.f-right>h3{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.f-service{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin:auto;
+    font-size: 20px;
+    list-style: none;
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.f-service>li>a{
+    text-decoration: none;
+}
+.socila-icon{
+    display: flex;
+    gap:30px;
+    font-size: 30px;
+    justify-content: end;
+    width: 80%;
+    margin:auto;
+   
+    
+
+}
+
+i{
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.logo-seection>img{
+    width: 80px;
+    padding:10px;
+    border-radius: 100%;
+    font-family: sans-serif;
+    font-weight:1000;
+}
+
+
+
